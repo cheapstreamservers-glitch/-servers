@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+
+    margin-top: 16%;
+    width: 100%;
+}
+    u
+    {
+    margin-top: -14%;
+    margin-bottom: 10px;
+    width: 25%;
+    height: 420;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px #facc00;
+        transition: 1.5s;
+    }
+    s
+    {
+    margin-top: -11%;
+        transition: 1.5s;
+    margin-bottom: 0px;
+    width: 20%;
+    height:350;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 25px #facc00;
+    }
+
+.slide {
+        transition: 1.5s;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius:10px;
+    position: absolute;
+}
+
+.slide2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+        transition: 1.5s;
+}
+.slide3 {
+        transition:1.5s;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+  }
+   .main{
+       margin-bottom: 20px;
+       width: 500px;
+       height: 150px;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+        position: relative;
+        color: #000;
+            flex-wrap: wrap;
+
+
+   }
+
+    .u
+    {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 160px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #facc00;
+        transition: 1.5s;
+    }
+    .s
+    {
+        transition: 1.5s;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #facc00;
+    }
+
+.slide1 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.slide12 {
+    width: 130px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+        transition: 1s;
+}
+.slide13 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}.slide4 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.slide5 {
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+        transition: 0.1s;
+}
+.slide6 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}.slide7 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.slide8 {
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+        transition: 0.1s;
+}
+.slide9 {
+        transition: 0.1s;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.nav {
+    margin-top: 1%;
+    background-color: none;
+    text-align: center;
+    color: #facc00;
+    font-size:20px;
+}.svc {
+    background-color: none;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+    color: #facc00;
+    font-size:20px;
+    margin-bottom: 50px;
+}
+
+
+button
+{
+    margin-top: 10px;
+    margin: auto;
+    border: 1;
+    box-shadow: 0px 0px 10px #faac00;
+    background-image: linear-gradient(to right, #faac00, #facc00);
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 1px 4px rgba(#faac00, #facc00, 0, 0.3);
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+
+
+}
+.svc button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size:20px;
+    color: #000;
+    border: 1;
+    box-shadow: 0px 0px 10px #faac00;
+    background-image: linear-gradient(to right, #faac00, #facc00);
+}
+.nav button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size:20px;
+    color: #000;
+    border: 1;
+    box-shadow: 0px 0px 10px #faac00;
+    background-image: linear-gradient(to right, #faac00, #facc00);
+}
+
+button:active
+{
+    opacity: 1;
+}
+.page
+{
+    position: absolute;
+    opacity: 0;
+    margin: auto;
+    overflow: hidden;
+    margin-left: -50%;
+    margin-top: -55%;
+    margin-bottom: 5%;
+    padding: 15px 25px;
+    background-color: #0e0e0e;
+    width: 42.5%;
+    height: 96.5%;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    border: 4;
+    box-shadow: 0px 0px 20px #ffaa00;
+    border-radius: 10px;
+        transition: 1.5s;
+}
+  .page.open
+  {
+      opacity: 999;
+      z-index: 999;
+      position: relative;
+    margin-left: 29%;
+  }
